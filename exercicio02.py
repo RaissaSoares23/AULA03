@@ -1,0 +1,10 @@
+numero1 = int ( input("Digite o prieiro numero:"))
+numero2= int (input ("Digite o segundo numero:"))
+soma = numero1 + numero2
+subtracao = numero1 - numero2
+multiplicacao = numero1 * numero2
+divisao = numero1/numero2
+print (f" A soma de {numero1} + {numero2 } = {soma}")
+print (f" A subtracao de {numero1} + {numero2 } = {subtracao}")
+print (f" A multiplicacao de {numero1} + {numero2 } = {multiplicacao}")
+print (f" A divisao de {numero1} + {numero2 } = {divisao}")
