@@ -7,4 +7,7 @@ media = (nota1+nota2+nota3)/3
 if media >= 7:
     print("Aluno aprovado")
 else:
-    print ("Aluno reprovado")
+    if media < 4:
+     print ("Aluno reprovado")
+    else:
+     print ("Aluno em recuperação")
