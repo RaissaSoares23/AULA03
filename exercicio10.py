@@ -1,6 +1,9 @@
 num = int (input("Informe um numero entre 1 e 12:"))
 
-if num == 1:
+if num > 12:
+    print("Número inválido")
+
+elif num == 1:
     print ("O numero",num," é referente ao mês de Janeiro")
 
 elif num == 2:
@@ -36,7 +39,5 @@ elif num == 11:
 elif num == 12:
     print ("O numero",num," é referente ao mês de Dezembro")
 
-else:
-    print ("Número inválido")
 
 
