@@ -36,8 +36,7 @@ elif num == 10:
 elif num == 11:
     print ("O numero",num," é referente ao mês de Novembro")
 
-elif num == 12:
+else:
     print ("O numero",num," é referente ao mês de Dezembro")
-
 
 
